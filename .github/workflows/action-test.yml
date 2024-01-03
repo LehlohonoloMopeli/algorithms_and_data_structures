@@ -1,0 +1,8 @@
+name: Run Shell Commands
+on: [push]
+jobs:
+  my-first-shell-execution:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display output of the exho command
+        run: echo "This is my first workflow run"
