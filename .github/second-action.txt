@@ -1,0 +1,1 @@
+This github action will trigger on both push and pull requests
