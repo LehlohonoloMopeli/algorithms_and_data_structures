@@ -1,5 +1,5 @@
 name: Run Shell Commands
-on: [push]
+on: [push, pull_request]
 jobs:
   my-first-shell-execution:
     runs-on: ubuntu-latest
