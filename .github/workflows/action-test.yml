@@ -4,5 +4,5 @@ jobs:
   my-first-shell-execution:
     runs-on: ubuntu-latest
     steps:
-      - name: Display output of the exho command
+      - name: Display output of the echo command
         run: echo "This is my first workflow run"
